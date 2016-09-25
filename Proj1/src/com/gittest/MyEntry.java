@@ -6,6 +6,10 @@ public class MyEntry {
 		// First modif from Git editor
 		System.out.println("Lets start making fun with Git");
 
+		HelloWorld helloWorld;
+		
+		helloWorld = new HelloWorld();
+		helloWorld.sayHello();
 	}
 
 }
